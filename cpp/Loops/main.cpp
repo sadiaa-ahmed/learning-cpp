@@ -72,5 +72,86 @@ main()
 	}
 	return 0 ;
 }
+// **********************************************
+//Switch Statement 
 
+#include<iostream>
 
+using namespace std;
+
+main()
+{
+	int number ;
+	cout<<"Enter a number (1-7):";
+	cin>>number;
+	switch(number){
+		case 1:
+			cout<<"Monday";
+			break;
+		case 2:
+			cout<<"\n Tuesday";
+			break;
+		case 3:
+			cout<<"\n Wednesday";
+			break;
+		case 4:
+			cout<<"Thursday";
+			break;
+		case 5:
+			cout<<"Friday";
+			break;
+		case 6:
+			cout<<"\n Saturday";
+			break;
+		case 7:
+			cout<<"\n Sunday";
+			break;
+		default:
+			cout<<"Invalid Number";							
+	}
+	return 0;
+}
+
+// ************************************************
+#include<iostream>
+
+using namespace std;
+
+main()
+{
+	int percentage, gradeCategory ;
+	cout<<"Enter the percentage:"; 
+	cin>>percentage;
+	
+	gradeCategory = percentage/10; 
+	switch(gradeCategory)
+	{
+		case 10:
+		case 9:
+			cout<<"Grade A+" <<endl;
+			break;
+		case 8:
+			cout<<"Grade A" <<endl;
+			break;
+		case 7:
+			cout<<"Grade B" <<endl;
+			break;
+		case 6:
+			cout<<"Grade C" <<endl;
+			break;
+		case 5:
+			cout<<"Grade D" <<endl;
+			break;						
+		default:
+			cout<<"Grade Failed"<<endl;		
+	}
+	return 0;	
+}
+
+// Problem 12
+// Create a program that asks the user to input the traffic light color (Red, Yellow, Green) and displays a corresponding message. For example, if the user inputs "Red," the output should be "Stop."
+// (UNSOLVED)
+
+// Problem 13
+// Create a simple calculator that takes two numbers and an operator (+, -, *, /) as input from the user and calculates the result accordingly, then displays the output.
+// (UNSOLVED)
