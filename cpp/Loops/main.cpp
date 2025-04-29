@@ -1,20 +1,20 @@
-#include <iostream>
+// #include <iostream>
 
-using namespace std;
-main()
-{
-	// while loop    ?   Runs continuously until the condition becomes false
-   // do-while loop ?   Runs at least once and then depends on the user's input or condition
-   // for loop      ?   Used when the number of repetitions is known (limited repetition)
-    int start = 1 ; 
-    do
-    {
-        cout<< "\n Virtual University";
-        start++ ;
-	}while(start <= 5);
+// using namespace std;
+// main()
+// {
+// 	// while loop    ?   Runs continuously until the condition becomes false
+//    // do-while loop ?   Runs at least once and then depends on the user's input or condition
+//    // for loop      ?   Used when the number of repetitions is known (limited repetition)
+//     int start = 1 ; 
+//     do
+//     {
+//         cout<< "\n Virtual University";
+//         start++ ;
+// 	}while(start <= 5);
 	
-	return 0 ;    
-}
+// 	return 0 ;    
+// }
 // *****************************
 // #include <iostream>
 
@@ -113,40 +113,40 @@ main()
 // }
 
 // ************************************************
-// #include<iostream>
+#include<iostream>
 
-// using namespace std;
+using namespace std;
 
-// main()
-// {
-// 	int percentage, gradeCategory ;
-// 	cout<<"Enter the percentage:"; 
-// 	cin>>percentage;
+main()
+{
+	int percentage, gradeCategory ;
+	cout<<"Enter the percentage:"; 
+	cin>>percentage;
 	
-// 	gradeCategory = percentage/10; 
-// 	switch(gradeCategory)
-// 	{
-// 		case 10:
-// 		case 9:
-// 			cout<<"Grade A+" <<endl;
-// 			break;
-// 		case 8:
-// 			cout<<"Grade A" <<endl;
-// 			break;
-// 		case 7:
-// 			cout<<"Grade B" <<endl;
-// 			break;
-// 		case 6:
-// 			cout<<"Grade C" <<endl;
-// 			break;
-// 		case 5:
-// 			cout<<"Grade D" <<endl;
-// 			break;						
-// 		default:
-// 			cout<<"Grade Failed"<<endl;		
-// 	}
-// 	return 0;	
-// }
+	gradeCategory = percentage/10; 
+	switch(gradeCategory)
+	{
+		case 10:
+		case 9:
+			cout<<"Grade A+" <<endl;
+			break;
+		case 8:
+			cout<<"Grade A" <<endl;
+			break;
+		case 7:
+			cout<<"Grade B" <<endl;
+			break;
+		case 6:
+			cout<<"Grade C" <<endl;
+			break;
+		case 5:
+			cout<<"Grade D" <<endl;
+			break;						
+		default:
+			cout<<"Grade Failed"<<endl;		
+	}
+	return 0;	
+}
 
 // Problem 12
 // Create a program that asks the user to input the traffic light color (Red, Yellow, Green) and displays a corresponding message. For example, if the user inputs "Red," the output should be "Stop."
