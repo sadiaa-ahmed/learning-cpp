@@ -1,5 +1,3 @@
-//FUNCTIONS
-
 //Problem 14
 //#include<iostream>
 
@@ -53,30 +51,30 @@
 
 //Problem 16
 
-// #include<iostream>
+#include<iostream>
 
-// using namespace std;
+using namespace std;
 
-// void Pow()
-// {
-// 	int number , limit ;
-// 	int result = 1;
-// 	cout<<"\n Enter a Number : ";
-// 	cin>>number;
-// 	cout<<"\n Power Limit : ";
-// 	cin>>limit;
-// 	for(int i=1 ; i<=limit ; i++)
-// 	{
-// //		result = result*number;
-//         result *= number;
-// 	}
-// 	cout<<"\n Result is :"<<result;
-// }
-// main()
-// {
-// 	Pow();
-// 	return 0;
-// }
+void Pow()
+{
+	int number , limit ;
+	int result = 1;
+	cout<<"\n Enter a Number : ";
+	cin>>number;
+	cout<<"\n Power Limit : ";
+	cin>>limit;
+	for(int i=1 ; i<=limit ; i++)
+	{
+//		result = result*number;
+        result *= number;
+	}
+	cout<<"\n Result is :"<<result;
+}
+main()
+{
+	Pow();
+	return 0;
+}
 
 //Problem 17
 //Find the area of circle.
