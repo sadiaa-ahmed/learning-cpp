@@ -1,7 +1,7 @@
 // Command For Run (Ctrl + Alt + N)
 // Command For Compile (g++ (file name) -o main ->output file name (g++ main.cpp -o main)) 
 // Command For Run(file name.exe)
-Agr Code Runner mein input nahi ho raha tu Manually terminal mein compile aur run karo
+// Agr Code Runner mein input nahi ho raha tu Manually terminal mein compile aur run karo
 
 
 // #include <iostream>
