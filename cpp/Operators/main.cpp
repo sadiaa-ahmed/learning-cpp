@@ -4,10 +4,10 @@
 
 // main()
 // {
-	// Airthmetic Operators  + = - /
-    // Assignment Operators  = += =+ /= %=
-	// Comparision Operators  == > < <= >= != 
-    // Logical AND OR NOT (&& || ! )
+	    // Airthmetic Operators  + = - /
+        // Assignment Operators  = += =+ /= %=
+	    // Comparision Operators  == > < <= >= != 
+        // Logical AND OR NOT (&& || ! )
 
 // 	int amir_age , ammara_age;
 // 	cout << "\n Enter age of Amir: ";
@@ -23,7 +23,7 @@
 // 	return 0 ;
 // }
 
-// // ***********************************
+// ***********************************
 
 
 // #include <iostream>
@@ -45,7 +45,8 @@
 
 // 	return 0 ;
 // }
-// // ***************************************
+
+// ***************************************
 #include <iostream>
 
 using namespace std;
