@@ -1,15 +1,12 @@
-//Problem 14
 //#include<iostream>
 
 //return_type function_name(argu);
 //void Test(int a);    (function Decleration)
-
-//****************************
 //void Test(int a)   (fnction definition) 
 //{
 //	Code here 
 //}
-//********************************
+
 //using namespace std;
 //
 //void Sum()
@@ -28,7 +25,8 @@
 //	return 0;
 //}
 
-//Problem 15
+// ****************************************************************************************
+
 //Calculate the square of a given number :
 
 //#include<iostream>
@@ -49,33 +47,52 @@
 //}
 
 
-//Problem 16
+//*******************************************************************************************
+
+// #include<iostream>
+
+// using namespace std;
+
+// void Pow()
+// {
+// 	int number , limit ;
+// 	int result = 1;
+// 	cout<<"\n Enter a Number : ";
+// 	cin>>number;
+// 	cout<<"\n Power Limit : ";
+// 	cin>>limit;
+// 	for(int i=1 ; i<=limit ; i++)
+// 	{
+// //		result = result*number;
+//         result *= number;
+// 	}
+// 	cout<<"\n Result is :"<<result;
+// }
+// main()
+// {
+// 	Pow();
+// 	return 0;
+// }
+
+//Find the area of circle.
 
 #include<iostream>
 
 using namespace std;
 
-void Pow()
+void Area()
 {
-	int number , limit ;
-	int result = 1;
-	cout<<"\n Enter a Number : ";
-	cin>>number;
-	cout<<"\n Power Limit : ";
-	cin>>limit;
-	for(int i=1 ; i<=limit ; i++)
-	{
-//		result = result*number;
-        result *= number;
-	}
-	cout<<"\n Result is :"<<result;
-}
-main()
-{
-	Pow();
-	return 0;
-}
+    float radius , area;
+	const float PI = 3.142;
 
-//Problem 17
-//Find the area of circle.
+	cout<<"\nEnter Radius:";
+	cin>>radius;
+
+	area = PI * radius * radius;
+	cout<<"The Area of Circle "<< area <<endl;
+}
+int main() {
+    Area();
+    return 0;
+}
 
