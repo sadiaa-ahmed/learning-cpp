@@ -37,3 +37,31 @@
 //     return 0;
 // }
 
+// ************************************************************
+// if and if/else 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int hours;
+	int fee = 0;
+	
+	cout<<"Enter the total numbers of hours spent at the gym:";
+	cin>>hours;
+	
+	if(hours<=0)
+	{
+		cout<<"Invalid input!. Hours must be a positive integer." << endl;
+	}else{
+		if(hours == 1){
+			fee = 0;
+		}else{
+			fee = (hours - 1)*200;
+		}
+		cout<<"Total fee is Rs."<< fee << endl;
+	}
+	
+	return 0;
+}
