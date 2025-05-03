@@ -76,23 +76,122 @@
 
 //Find the area of circle.
 
+// #include<iostream>
+
+// using namespace std;
+
+// void Area()
+// {
+//     float radius , area;
+// 	const float PI = 3.142;
+
+// 	cout<<"\nEnter Radius:";
+// 	cin>>radius;
+
+// 	area = PI * radius * radius;
+// 	cout<<"The Area of Circle "<< area <<endl;
+// }
+// int main() {
+//     Area();
+//     return 0;
+// }
+
+// ******************************************************************
+
+// #include<iostream>
+
+// using namespace std;
+
+// void Test(int a, char b, string c)
+// {
+// 	cout<<"\n : "<<a<<" "<<b<<" "<<c;
+// }
+// main()
+// {
+// 	// Test();  //Simple calling
+// 	// Test(10, 'k' , "Sadia");     //Call By Value
+// 	return 0;
+// }
+
+// -----------------------------------------------------------------------------------
+
+// #include<iostream>
+
+// using namespace std;
+
+// void Test(int i, char d, string e)
+// {
+// 	cout<<"\n : "<<i<<" "<<d<<" "<<e;
+// }
+// main()
+// {
+// 	// Call by Variable
+// 	int i = 14;
+// 	char d = 'S';
+// 	string e = "Ssssssss";
+// 	Test(i , d, e);
+// 	return 0;
+// }
+
+// ----------------------------------------------------------------------------------
+
+// #include<iostream>
+
+// using namespace std;
+
+// void Test(int &i, char &d, string &e)
+// {
+// 	cout<<"\n : "<<i<<" "<<d<<" "<<e;
+// }
+// main()
+// {
+// 	// Call by Reference 
+// 	// is main direct values nahi jayengi balky oper address jayengy ........ inn address sy values ko hasil kerna asan hota hai
+
+// 	int i = 14;
+// 	char d = 'S';
+// 	string e = "Ssssssss";
+// 	Test(i , d, e);
+// 	return 0;
+// }
+
+// ------------------------------------------------------------------------------------
+
+// #include<iostream>
+
+// using namespace std;
+
+// // void Test(int a, int b)
+// int Test(int a, int b)
+// {
+// 	int sum = 0 ;
+// 	sum = a + b;
+// 	// cout<<"\n Sum is :" << sum; 
+// 	return sum;
+// }
+// main()
+// {
+// 	int a = 10, b = 20 , z = 0;
+// 	z= Test(a,b);
+// 	cout<<"\n Sum is :" << z ; 
+// 	return 0 ;
+// }
+
+// -------------------------------------------------------------------------------
 #include<iostream>
 
 using namespace std;
 
-void Area()
+// void Test(int a, int b)
+int Test(int a, int b)
 {
-    float radius , area;
-	const float PI = 3.142;
-
-	cout<<"\nEnter Radius:";
-	cin>>radius;
-
-	area = PI * radius * radius;
-	cout<<"The Area of Circle "<< area <<endl;
+	int sum = 0 ;
+	sum = a + b;
+	return sum;
 }
-int main() {
-    Area();
-    return 0;
+main()
+{
+	int a = 10, b = 20;
+	cout<<"\n Sum is :" << Test(a,b) ; 
+	return 0 ;
 }
-
