@@ -183,7 +183,7 @@
 using namespace std;
 
 // void Test(int a, int b)
-int Test(int a, int b)
+int Test(int a, int b) 
 {
 	int sum = 0 ;
 	sum = a + b;
