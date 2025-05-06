@@ -167,7 +167,66 @@ numbers. Stop taking input when user enters -1. */
 // main()
 // {
 //     char array[5] = {'k', 's','e', 't', 'r'};
+//     char array[5] = "IBRHIM";
 //     cout<<array;
 //     return 0;
 // }
 
+/* Arrays Comparision */
+
+/* Sorting */
+// #include <iostream> 
+
+// using namespace std;
+
+// main()
+// {
+//     int a[5] = {15,2,7,4,1};
+//     for(int i=0;i<=4;i++)
+//     {
+//         for(int j=0; j<=4 ; j++)
+//         {
+//             if(a[j] > a[j+1])
+//             {
+//                 a[j] = a[j]+a[j+1];
+//                 a[j+1] = a[j] - a[j+1];
+//                 a[j] = a[j] - a[j+1];
+//             }
+//         }
+//     }
+//     for(int i=0;i<=4;i++)
+//     {
+//         cout<<" "<<a[i];
+//     }
+// }
+
+/* Short Version of Sorting */
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int a[5] = {15, 2, 7, 4, 1};
+
+//     for(int i = 0; i < 4; i++) // 4 passes
+//     {
+//         for(int j = 0; j < 4 - i; j++) // reduce comparisons each time
+//         {
+//             if(a[j] > a[j + 1])
+//             {
+//                 // swap using temp variable
+//                 int temp = a[j];
+//                 a[j] = a[j + 1];
+//                 a[j + 1] = temp;
+//             }
+//         }
+//     }
+
+//     for(int i = 0; i < 5; i++)
+//     {
+//         cout << a[i] << " ";
+//     }
+
+//     return 0;
+// }
