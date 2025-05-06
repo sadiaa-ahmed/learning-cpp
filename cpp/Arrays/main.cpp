@@ -230,3 +230,60 @@ numbers. Stop taking input when user enters -1. */
 
 //     return 0;
 // }
+
+/* Function and Arrays*/
+
+// #include<iostream>
+
+// using namespace std;
+// void getvalues(int a[], int size)
+// {
+//     cout<<"\n Enter 4 Values: ";
+//     for(int i=0; i<size; i++)
+//     {
+//         cin>>a[i];   // user se array ke values input lena
+//     }
+// }
+
+// main()
+// {
+//     int a[5];      // array of 5 integers
+//     getvalues(a,5);
+//     for(int i=0; i<=4; i++)
+//     {
+//         cout<<"\n "<<a[i];   // display the values
+//     }
+//     return 0;
+// }
+
+// Concept	Use: 
+// Array	Data store karne ke liye
+// Function	Code ko reuse karne ke liye
+// Parameter	Array and size passed to function
+// cin >> a[i]	User input
+// cout << a[i]	Output
+
+
+/* MultiDimensional Array */
+
+// #include<iostream>
+
+// using namespace std;
+
+// main()
+// {
+//     const int row = 3;
+//     const int col = 3;
+//     int a[row][col];
+//     // Take values From user 
+//     for(int i=0; i<row; i++)
+//     {
+//         for(int j=0; j<col;j++)
+//         {
+//             cout<<"\n Enter "<<i<<" "<<j<< "value : ";
+//             cin>>a[i][j];
+//         }
+//     }
+// }
+
+
