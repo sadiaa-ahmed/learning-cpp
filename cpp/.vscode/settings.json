@@ -1,0 +1,6 @@
+{
+    "markdown.preview.breaks": true,
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
