@@ -57,25 +57,35 @@
 
 // Example:
 
-#include<iostream>
-using namespace std;
-void convert(char *str)
-{
-    while(*str != '\0')
-    {
-        if(islower(*str))
-        {
-            *str = toupper(*str);
-        }
-        str++;
-    }
-}
-main()
-{
-    char str[30] = "Pakistan Zindahbaad";
-    convert(str);
-    cout<<"\n " << str;
-    return 0;
-}
+// #include<iostream>
+// using namespace std;
+// void convert(char *str)
+// {
+//     while(*str != '\0')
+//     {
+//         if(islower(*str))
+//         {
+//             *str = toupper(*str);
+//         }
+//         str++;
+//     }
+// }
+// main()
+// {
+//     char str[30] = "Pakistan Zindahbaad";
+//     convert(str);
+//     cout<<"\n " << str;
+//     return 0;
+// }
+// ****************************************************************
 
+// #include<iostream>
+// using namespace std;
+
+// main()
+// {
+//     int a; // Varaible in which store integer value
+//     int *ptr;  // pointer in which store int type variable address
+//     return 0;
+// }
 
